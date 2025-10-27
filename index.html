@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector("header nav");
+        navLinks.classList.toggle("active");
+      }
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <nav>
+        <a href=""><i class="fa-sharp-duotone fa-solid fa-ring"></i></a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <h1>Lord of the Rings</h1>
+      <p>
+        If you want to be a part of this one Lord of all Lores, just join us!
+      </p>
+      <button>Join the Fellowship</button>
+    </header>
+
+    <main>
+      <div class="about">
+        <section id="about">
+          <h2>About Lord of the Rings</h2>
+        </section>
+        <div class="two_parts">
+          <div class="left">
+            <p>
+              “The Lord of the Rings is a timeless fantasy epic written by
+              J.R.R. Tolkien, widely regarded as one of the greatest works of
+              imaginative fiction ever created. Set in the expansive and magical
+              world of Middle-earth, the story follows the courageous hobbit
+              Frodo Baggins on an extraordinary journey to destroy the One Ring,
+              a dark and powerful artifact forged by the evil lord Sauron to
+              dominate all life. Accompanied by a fellowship of
+              friends—including Gandalf the wizard, Aragorn the ranger, Legolas
+              the elf, Gimli the dwarf, and his loyal hobbit companions—Frodo
+              travels through perilous landscapes, from the tranquil Shire to
+              the fiery depths of Mount Doom. Along the way, they encounter
+              mythical creatures, ancient civilizations, and epic battles, each
+              shaping their courage, loyalty, and resolve. Beyond its thrilling
+              adventures, LOTR explores profound themes: the enduring power of
+              friendship and loyalty, the struggle between good and evil, the
+              corrupting influence of power, and the resilience of ordinary
+              individuals in extraordinary circumstances. Tolkien’s intricate
+              world-building, rich languages, and unforgettable characters have
+              captured the hearts of millions, inspiring generations of readers
+              and viewers alike. Whether you are drawn to its epic battles,
+              breathtaking landscapes, or deep moral storytelling, The Lord of
+              the Rings remains a monumental journey of heroism, sacrifice, and
+              the timeless fight for hope in the face of darkness.”
+            </p>
+          </div>
+          <div class="right">
+            <img src="Photos/about.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <section id="gallery">
+          <h2>Gallery</h2>
+        </section>
+        <div class="grid_gallery">
+          <img src="Photos/gallery1.jpg" alt="" />
+          <img src="Photos/gallery2.jpg" alt="" />
+          <img src="Photos/gallery3.jpg" alt="" />
+          <img src="Photos/gallery4.jpg" alt="" />
+          <img src="Photos/gallery5.jpg" alt="" />
+          <img src="Photos/gallery6.jpg" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <section id="contact">
+          <h2>Contact Us</h2>
+        </section>
+      <div>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+      <p>Email: <a href="">seyidovmiri38@gmail.com</a></p>
+    </footer>
+  </body>
+</html>
