@@ -1,3 +1,1 @@
-My task today is to make an old project responsive. This is an old project of mine that is nearly 2 years old. I love the design I gave to this project. Thats the reason why I chose this.
-After starting to adjust responsivenes, I also made some changes on design too. 
-This used to be a design project for self-study without any responsivenes. Now, all project is responsive and all project is tested with  Chrome DevTools device toolbar.
+
